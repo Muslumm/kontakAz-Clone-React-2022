@@ -4,7 +4,21 @@
     border: 1px solid var(--line-gray);
     border-radius: 10px;
     margin-top: 15px;
+    overflow-x: scroll;
+    
+
 }
+
+.categories_section::-webkit-scrollbar {
+    width: 4px; 
+    height: 10px;
+ }
+
+
+.categories_section::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+  }
+
 
 .category {
     width: 100%;
