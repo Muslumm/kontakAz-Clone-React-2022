@@ -14,4 +14,16 @@
     --color-logo: deeppink;
 }
 
+.page {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
 
