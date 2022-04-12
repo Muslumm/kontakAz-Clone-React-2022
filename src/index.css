@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-dark: #171717;
+    --bg-light: #fff;
+    --color-white: #fff;
+    --color-dark: #171717;
+    --line-gray: #d8d8d8;
+    --color-logo: deeppink;
+}
+
+

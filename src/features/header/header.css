@@ -1,0 +1,154 @@
+
+/* header section styles */
+
+.header_section {
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid var(--line-gray);
+    padding: 0 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header left */
+
+.header_left {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    color: var(--color-logo);
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+.logo:hover {
+    color: deeppink;
+}
+
+.logo::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 90%;
+    background-color: var(--line-gray);
+    top: 0;
+    right: -20px;
+}
+
+.menu_icon {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu_text {
+    display: inline-block;
+    font-size: 16px!important;
+}
+
+
+
+/* header center */
+
+.header_center {
+    width: 40%;
+}
+
+.header_search_form {
+    width: 100%;
+    padding: 4px 10px;
+    border: 1px solid var(--line-gray);
+    border-radius: 15px;
+}
+
+.header_search_form:hover .search_icon {
+    color: deeppink;
+    cursor: pointer;
+}
+
+.header_search_form > input{
+      border: none;
+      outline: none; 
+      width: 90%;
+      margin-left: 10px;
+}
+
+
+
+
+/* header right */
+
+.header_right {
+     width: 35%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.header_right_select_container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select_img_container {
+    width: 30px;
+    height: 30px;
+}
+
+.select_img_container > img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -5px;
+}
+
+.header_right_icon_container {
+    position: relative;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.header_right_icon_container::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 90%;
+    background-color: var(--line-gray);
+    top: 0;
+    right: -20px;
+}
+
+.select_language {
+    border: none;
+    cursor: pointer;
+}
+
+.relative_icon {
+    position: relative!important;
+}
+
+.cart_quantity {
+    position: absolute;
+    top: 0px;
+    right: -15px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
