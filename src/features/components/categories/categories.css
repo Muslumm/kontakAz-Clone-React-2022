@@ -6,7 +6,6 @@
     margin-top: 15px;
     overflow-x: scroll;
     z-index: 999;
-
 }
 
 .categories_section::-webkit-scrollbar {
@@ -44,9 +43,10 @@
     border-radius: 10px;
     margin-top: 15px;
     overflow-x: scroll;
-    left: 24%;
+    left: 20%;
     top: 0;
     display: none;
+    background-color: white;
 }
 
 .category_link:hover .sub_menu {
@@ -75,4 +75,5 @@
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    margin: 5px 0;
 }
