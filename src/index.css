@@ -23,7 +23,8 @@
 .content {
     width: 100%;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    position: relative;
 }
 
 

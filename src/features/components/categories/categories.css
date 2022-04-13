@@ -5,19 +5,19 @@
     border-radius: 10px;
     margin-top: 15px;
     overflow-x: scroll;
-    
+    z-index: 999;
 
 }
 
 .categories_section::-webkit-scrollbar {
-    width: 4px; 
+    width: 4px;
     height: 10px;
- }
+}
 
 
 .categories_section::-webkit-scrollbar-thumb {
     background: #4e4e4e;
-  }
+}
 
 
 .category {
@@ -29,7 +29,50 @@
 }
 
 .category_link {
-     display: block;
-     text-decoration: none;
-     color: var(--color-dark);
+    display: block;
+    text-decoration: none;
+    color: var(--color-dark);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sub_menu {
+    position: absolute;
+    width: 25%;
+    height: 70vh;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow-x: scroll;
+    left: 24%;
+    top: 0;
+    display: none;
+}
+
+.category_link:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+}
+
+.sub_menu::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+}
+
+.subMenu_List {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.subMenu_Link {
+    display: block;
+    text-decoration: none;
+    color: var(--color-dark);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
 }
